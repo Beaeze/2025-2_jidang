@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0764d9-7301-456d-8273-11b053d9d6a0" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/templates/test_post_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Title/TitleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/templates/titlepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/executionHistory/executionHistory.lock" afterDir="false" />
@@ -13,17 +14,12 @@
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/build/classes/java/main/com/jidang/Post/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/build/classes/java/main/com/jidang/Post/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/build/classes/java/main/com/jidang/Post/PostForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/build/classes/java/main/com/jidang/Post/PostForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/build/classes/java/main/com/jidang/Post/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/build/classes/java/main/com/jidang/Post/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Post/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Post/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Post/PostForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Post/PostForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Post/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/Post/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/user/SiteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/user/SiteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/java/com/jidang/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/templates/test_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/jidang-project/jidang/src/main/resources/templates/test_post_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>

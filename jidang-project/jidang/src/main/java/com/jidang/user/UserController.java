@@ -22,6 +22,10 @@ import java.security.Principal; // 현재 로그인된 사용자 정보를 가�
 
 import com.jidang.Post.PostRepository;
 
+import org.springframework.security.access.prepost.PreAuthorize; // 💡 @PreAuthorize //권한검사-로그인되어있는지 아닌지
+import org.springframework.web.bind.annotation.RequestParam;           // 💡 @RequestParam
+import org.springframework.web.servlet.mvc.support.RedirectAttributes; // 💡 RedirectAttributes 및 addFlashAttribute-알림메세지
+
 @RequiredArgsConstructor
 @Controller
 @RequestMapping("/user")
@@ -95,5 +99,20 @@ public class UserController {
         model.addAttribute("postCount", postCount);
 
         return "mypage"; // mypage.html 템플릿 반환
+    }
+
+    //칭호 선택 처리 메서드
+    @PreAuthorize("isAuthenticated()")
+    @PostMapping("/selectTitle")
+    public String selectTitle(@RequestParam String titleName, Principal principal, RedirectAttributes redirectAttributes) {
+        try {
+            userService.selectTitle(principal.getName(), titleName);
+            redirectAttributes.addFlashAttribute("message", "대표 칭호가 '" + titleName + "'(으)로 설정되었습니다.");
+        } catch (RuntimeException e) {
+            redirectAttributes.addFlashAttribute("error", e.getMessage());
+        }
+
+        // 칭호 선택 페이지나 마이페이지로 리다이렉트
+        return "redirect:/user/mypage";
     }
 }
